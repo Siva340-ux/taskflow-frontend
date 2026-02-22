@@ -13,10 +13,8 @@
     "date-fns": "^2.30.0"
   },
   "scripts": {
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "serve": "serve -s build -l $PORT"
   },
   "eslintConfig": {
